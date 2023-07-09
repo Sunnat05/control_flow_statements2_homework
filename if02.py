@@ -1,10 +1,10 @@
 def main(a,b,c):
-    if a<b and a<c:
-        return "First number"
-    elif b<a and b<c:
-        return "Second number"
-    elif c<a and c<b:
-        return "Third number"
+    if a<=b and a<=c:
+        return a
+    elif b<=a and b<=c:
+        return b
+    elif c<=a and c<=b:
+        return c
 print(main(3,6,1))
 """
     Find the smallest of the numbers.
