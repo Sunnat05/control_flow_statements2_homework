@@ -5,7 +5,7 @@ def main(a,b):
         return "First number"
     else:
         return "Second number"
-print(main(4,9))
+print(main(9,9))
 """
     Return zero if the numbers are equal, return the larger one if they are not equal.
     Args:
